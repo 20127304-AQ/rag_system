@@ -1,0 +1,8 @@
+lancedb
+pyarrow
+tornado
+pyjwt
+google-generativeai
+asyncio
+numpy
+pandas
