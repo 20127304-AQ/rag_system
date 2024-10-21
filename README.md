@@ -66,7 +66,7 @@ To run the application using Docker, follow these steps:
 
 4. Access the application by opening a web browser and navigating to `http://localhost:8000`.
 
-Note: Make sure your `app.py` file is configured to listen on all interfaces (`0.0.0.0`) instead of just localhost for the containerized application to be accessible from outside the container.
+**Note: Make sure your Gemini API is added in file utils.py**
 
 ## 6. Related Documentations
 
