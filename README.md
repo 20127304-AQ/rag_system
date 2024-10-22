@@ -43,7 +43,7 @@ This project utilizes several components:
 
 ## 4. Related packages
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 5. Running with Docker
