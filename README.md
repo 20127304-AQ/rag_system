@@ -9,6 +9,8 @@
 | 3.0             | October 7, 2024 | Utilize Gemini for embedding task and integrate into Continue extension |
 | 4.0             | October 15, 2024 | Explore automatically re-indexing                      |
 | 5.0             | October 21, 2024 | Add Docker deployment instructions                     |
+| 6.0             | November 15, 2024 | Review system                    |
+| 7.0             | November 18, 2024 | Final report                  |
 
 ## 2. Architecture Overview
 
@@ -52,14 +54,14 @@ To run the application using Docker, follow these steps:
 
 1. Ensure you have Docker installed on your system.
 
-2. Build the Docker image:
+2. Pull the Docker image:
    ```
-   docker build -t rag-system .
+   docker pull anquoc/rag_system:final
    ```
 
 3. Run the Docker container:
    ```
-   docker run -p 8000:8000 rag-system
+   docker run -p 8000:8000 anquoc/rag_system:final
    ```
 
    This command will start the container and map port 8000 from the container to port 8000 on your host machine.
